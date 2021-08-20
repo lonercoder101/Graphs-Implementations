@@ -1,12 +1,6 @@
-// indegree based
-// loop detection is possible 
-//BFS implementation 
 
-/* Start with a queue and initialize some nodes, popout one node 
-(completed task 1, then dependencies realted will get removed and indegrees reduced)
-*/
+//DFS implementation 
 
-// Kahn's algo
 
 #include<bits/stdc++.h>
 using namespace std;
