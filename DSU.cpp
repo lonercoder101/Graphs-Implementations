@@ -60,5 +60,20 @@ int main(){
 	cin >> n >> m;
 	UnionFind obj(n+1);
 
+	while(m--){
+		string s; cin >> s;
+		cin >> x >> y;
+		if(s=="union"){
+			obj.unionSet(x,y);
+		}
+		else{
+			if( obj.isSameSet(x,y) )
+				cout << "YES\n";
+			else cout << "NO\n";
+		}
+
+
+	}
+
 
 }
