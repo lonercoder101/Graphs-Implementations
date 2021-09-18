@@ -1,6 +1,6 @@
 // EPAM Djikstra
 
-/* input    // output 24 3 15
+/* input   
 4 4
 1
 1 2 24
@@ -8,6 +8,7 @@
 3 1 3
 4 3 12
 */
+ // output 24 3 15
 
 #include<bits/stdc++.h>
 using namespace std;
