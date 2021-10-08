@@ -54,15 +54,8 @@ public:
 
 
 	}
-};
-
-
-
-
-
-
-
-
+}; 
+// class based implementaion, not preferred but meh
 int main()
 {
 	Graph g(6);
